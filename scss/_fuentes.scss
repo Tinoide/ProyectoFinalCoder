@@ -1,0 +1,84 @@
+@import "colores";
+@import "tamanios";
+
+/* Variables */
+$tamaño:25px;
+$centrar:center;
+$derecha: right;
+$izquierda: left;
+
+.texto{
+	text-align:$centrar;
+	font-size:$tamaño;
+	&__encabezado{
+	text-align:$centrar;
+	font-weight:bold;
+	font-size: 16px;
+	}
+	&__parrafo{
+	text-align:$centrar;
+	font-size: 15px;
+	}
+}
+.subTitulos {
+	font-size:$tamaño;
+}
+
+.Consideraciones {
+	font-size: 20px;
+	font-weight:bold;
+}
+
+.Adopcion {
+	font-size: 16px;
+}
+
+$estilos: (
+	color: #7263D8,
+	centro: center,
+	upper: uppercase,
+	tFuente: 15px,
+	1rem : 1rem
+);
+.mapGet {
+	background-color: map-get($estilos, color);
+	text-align: map-get($estilos, centro);
+	padding: map-get($estilos, 1rem);
+	font-size: map-get($estilos, tFuente);
+	color: white;
+}
+
+$estilos: (
+	color: #7263D8,
+	centro: center,
+	upper: uppercase,
+	tFuente: 25px,
+	1rem : 1rem
+);
+.mapGet2 {
+	background-color: map-get($estilos, color);
+	text-align: map-get($estilos, centro);
+	padding: map-get($estilos, 1rem);
+	font-size: map-get($estilos, tFuente);
+	color: white;
+}
+
+
+h1 {
+	text-align:$centrar;
+	font-size:50px;
+	color:$purpura 
+}
+
+.Centrar { text-align:$centrar}
+.redes { list-style: none; display: inline-flex;}
+.descripcion { display: flex; text-align: center; align-items: center; }
+.animacion { width: 170px;
+transition: all 1s; }
+.animacion:hover{ width: 220px;}
+.textoDescripcion { font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: larger;
+    background-color: cornsilk; }
+.botonAdoptar { color: white}

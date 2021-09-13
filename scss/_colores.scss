@@ -1,0 +1,11 @@
+/* Variables */
+$purpura:rebeccapurple;
+$azul:blue;
+$amarillo:yellow;
+
+/* Each*/
+@each $color in $purpura, $azul, $amarillo {
+	.#{$color}{
+		color:#{$color};
+	}
+}

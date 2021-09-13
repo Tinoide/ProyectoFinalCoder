@@ -1,0 +1,101 @@
+/* Variables */
+/* Each*/
+.rebeccapurple {
+  color: rebeccapurple; }
+
+.blue {
+  color: blue; }
+
+.yellow {
+  color: yellow; }
+
+/* Variables */
+/* Each*/
+.rebeccapurple {
+  color: rebeccapurple; }
+
+.blue {
+  color: blue; }
+
+.yellow {
+  color: yellow; }
+
+.tamanio {
+  width: 50%; }
+
+/* Variables */
+.texto {
+  text-align: center;
+  font-size: 25px; }
+  .texto__encabezado {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px; }
+  .texto__parrafo {
+    text-align: center;
+    font-size: 15px; }
+
+.subTitulos {
+  font-size: 25px; }
+
+.Consideraciones {
+  font-size: 20px;
+  font-weight: bold; }
+
+.Adopcion {
+  font-size: 16px; }
+
+.mapGet {
+  background-color: #7263D8;
+  text-align: center;
+  padding: 1rem;
+  font-size: 15px;
+  color: white; }
+
+.mapGet2 {
+  background-color: #7263D8;
+  text-align: center;
+  padding: 1rem;
+  font-size: 25px;
+  color: white; }
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: rebeccapurple; }
+
+.Centrar {
+  text-align: center; }
+
+.redes {
+  list-style: none;
+  display: inline-flex; }
+
+.descripcion {
+  display: flex;
+  text-align: center;
+  align-items: center; }
+
+.animacion {
+  width: 170px;
+  transition: all 1s; }
+
+.animacion:hover {
+  width: 220px; }
+
+.textoDescripcion {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: larger;
+  background-color: cornsilk; }
+
+.botonAdoptar {
+  color: white; }
+
+.col-lg-12, .col-xs-12, .col-lg-4, .container-fluid, .row {
+  padding: 0;
+  margin: 0; }
+
+.tamanio {
+  width: 50%; }
